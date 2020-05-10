@@ -1,6 +1,6 @@
 # Basic Utility Library
 
-Everything you learn in JavaScript can be represented and remembered with a `function` you create. The goal of this project is to create an interactive utility library of all the basic JavaScript operations and functions you learn.
+Everything you learn in JavaScript can be represented and remembered with a `function` you create. The goal of this project is to create an interactive utility library of all the JavaScript operations and functions you learn.
 
 Utility libraries are an important feature of any [high level programming language](https://en.wikipedia.org/wiki/High-level_programming_language).
 
@@ -46,7 +46,7 @@ You don't need to do anything else to connect it to Github. All your changes wil
 
 ## Step 2: Add JavaScript functions to your library
 
-Create simple functions that demonstrate a working knowledge basic JavaScript operations and functions. Create your own name for each function—**the name must be unique** and must be the same for the function in `functions.js` and `index.html`. Write a short description that makes sense for you. In the comments of your function, list the arguments and the return value this function accepts.
+Create simple functions that demonstrate a working knowledge JavaScript operations and functions. Create your own name for each function—**the name must be unique** and must be the same for the function in `functions.js` and `index.html`. Write a short description that makes sense for you. In the comments of your function, list the arguments and the return value this function accepts.
 
 Add functions to the `functions.js` file.
 
