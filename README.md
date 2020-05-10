@@ -28,11 +28,11 @@ FORK AND CLONE INSTRUCTIONS GO HERE
 
 ## Step 2: Add JavaScript functions to your library
 
-Create simple functions that demonstrate a working knowledge basic JavaScript operations and functions. Create your own name for each function—**the name must be unique** and must be the same for the function in `functions.js` and `index.html`. Write a short description that makes sense for you. In the comments of your function list the arguments and the return value this function accepts.
+Create simple functions that demonstrate a working knowledge basic JavaScript operations and functions. Create your own name for each function—**the name must be unique** and must be the same for the function in `functions.js` and `index.html`. Write a short description that makes sense for you. In the comments of your function, list the arguments and the return value this function accepts.
 
 Add functions to the `functions.js` file.
 
-Add a new column to `index.html` by copying and pasting everything between and including `<!-- start column -->` and `<!-- end column -->` editing the **function name**, its **description**, and its **inputs**.
+Add a new Bootstrap column to `index.html` by copying and pasting everything between and including `<!-- start column -->` and `<!-- end column -->` editing the **function name**, its **description**, and **the number of inputs** it has.
 
 Here's an example using "Add Two Numbers with JavaScript":
 
@@ -70,7 +70,7 @@ function add(input1, input2) {
 
 ### List of functions
 
-Complete everything up to and including "Stand in Line" from [JavaScript Algorithms and Data Structures Certification > Basic JavaScript](https://www.freecodecamp.org/learn/). As you complete each one, create simple utility functions that demonstrate a working knowledge of the following lessons.
+Complete everything up to and including "Stand in Line" from [JavaScript Algorithms and Data Structures Certification > Basic JavaScript](https://www.freecodecamp.org/learn/). As you complete each one, create simple utility functions that demonstrate a working knowledge of the following lessons (you will do all lessons in FreeCodeCamp, but make utility functions for these):
 
 -  Add Two Numbers with JavaScript
 -  Subtract One Number from Another with JavaScript
@@ -97,7 +97,21 @@ Complete everything up to and including "Stand in Line" from [JavaScript Algorit
 
 ## Step 3: Apply your learning to White Bear
 
-Make the "Next" button on `create-answer.html` disabled by default. When the textarea has > 0 characters in it, enable the button.
+### On `index.html`
+
+When the user clicks "Let's go!" or "Log in" check that the respective email field is not blank. If the email is blank, show an error message below the input that says, "Please enter your email address." and use Bootstrap 4 classes to style the input with error validation.
+
+When the user clicks "Let's go!" or "Log in" check that the respective password field is not less than 9 characters. If the password is less than 9 characters, show an error message below the input that says, "Your password must be at least 9 characters." and use Bootstrap 4 classes to style the input with error validation. If the password field is blank, the "Please enter your password." error message should display instead.
+
+When the user clicks "Let's go!" or "Log in" check that the respective password field is not blank. If the password is blank, show an error message below the input that says, "Please enter your password." and use Bootstrap 4 classes to style the input with error validation. This error message takes priority over the "Your password must be at least 9 characters." error message.
+
+### On `create-answer.html`
+
+Make the character counter count characters. For every character entered in the textarea, display the amount of characters in the part of the character counter that precedes the forward slash—for example, the `55` in `55/240`.
+
+Make the "Next" button disabled by default. When the textarea has > 0 characters and <= 240 characters in it, enable the button. If it has 0 or > 240 characters, disable it.
+
+Change the color of the entire character counter (`241/240`) to `$danger` if the characters in the textarea > 240 characters. The user may type as much as they want and the character counter will keep increasing.
 
 ## Step 4: Repeat this process with the next repo
 
