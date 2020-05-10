@@ -18,13 +18,31 @@ What and what?
 
 ### Walkthrough
 
-FORK AND CLONE INSTRUCTIONS GO HERE
+In your coding folder on your computer, create a folder for this project.
+
+View this page on Github. Go to the top of the page and click "Fork".
+
+If given the option, select your username.
+
+You will be taken to a new repo under your Github username. Click "Clone or download", and copy the URL you are given.
+
+In your terminal, go to the folder you created for this project.
+
+Enter the following:
+
+`git clone TheUrlYouCopiedFromGithub .` **Note the period at the end!**
+
+This will clone the forked repo into the folder you've created.
+
+You don't need to do anything else to connect it to Github. All your changes will be pushed to the right repo. Simply make changes then commit & push!
 
 ### More reading
 
 [Difference between Git Clone and Git Fork](https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/)
 
 [What is the difference between Forking and Cloning on GitHub?](https://stackoverflow.com/questions/7057194/what-is-the-difference-between-forking-and-cloning-on-github)
+
+[How do you clone a Git repository into a specific folder?](https://stackoverflow.com/questions/651038/how-do-you-clone-a-git-repository-into-a-specific-folder)
 
 ## Step 2: Add JavaScript functions to your library
 
