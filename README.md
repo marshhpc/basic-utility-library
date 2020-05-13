@@ -117,11 +117,13 @@ Complete everything up to and including "Stand in Line" from [JavaScript Algorit
 
 ### On `index.html`
 
-When the user clicks "Let's go!" or "Log in" check that the respective email field is not blank. If the email is blank, show an error message below the input that says, "Please enter your email address." and use Bootstrap 4 classes to style the input with error validation.
+First, let's change "Let's go!" from an `<a>` to a `<button>` and delete the href attribute so we can work on this button without it sending us to the next page. :sweat_smile: (Leave "Log in" as is.)
 
-When the user clicks "Let's go!" or "Log in" check that the respective password field is not less than 9 characters. If the password is less than 9 characters, show an error message below the input that says, "Your password must be at least 9 characters." and use Bootstrap 4 classes to style the input with error validation. If the password field is blank, the "Please enter your password." error message should display instead.
+When the user clicks "Let's go!" check that the respective email field is not blank. If the email is blank, show an error message below the input that says, "Please enter your email address." and use Bootstrap 4 classes to style the input with error validation.
 
-When the user clicks "Let's go!" or "Log in" check that the respective password field is not blank. If the password is blank, show an error message below the input that says, "Please enter your password." and use Bootstrap 4 classes to style the input with error validation. This error message takes priority over the "Your password must be at least 9 characters." error message.
+When the user clicks "Let's go!" check that the respective password field is not less than 9 characters. If the password is less than 9 characters, show an error message below the input that says, "Your password must be at least 9 characters." and use Bootstrap 4 classes to style the input with error validation. If the password field is blank, the "Please enter your password." error message should display instead.
+
+When the user clicks "Let's go!" check that the respective password field is not blank. If the password is blank, show an error message below the input that says, "Please enter your password." and use Bootstrap 4 classes to style the input with error validation. This error message takes priority over the "Your password must be at least 9 characters." error message.
 
 ### On `create-answer.html`
 
